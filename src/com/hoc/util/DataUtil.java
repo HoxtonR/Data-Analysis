@@ -43,11 +43,11 @@ public class DataUtil {
         }
         return numListMA;
     }
-    // KDJ cal
+    // KDJ calc
 
-    // BOLL cal
+    // BOLL calc
 
-    // TOW cal
+    // TOW calc
     public static void main(String[] args) throws IOException {
         System.out.println(maCalc(dataHandler(FileUtil.dataReader("data1.txt")),6));
     }
