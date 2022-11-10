@@ -49,6 +49,6 @@ public class DataUtil {
 
     // TOW calc
     public static void main(String[] args) throws IOException {
-        System.out.println(maCalc(dataHandler(FileUtil.dataReader("data1.txt")),6));
+        System.out.println(maCalc(dataHandler(FileUtil.dataReader("data1.json")),6));
     }
 }
